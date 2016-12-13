@@ -1,0 +1,7 @@
+@base <https://rawgit.com/sils-webinfo/helpdesk/master/vocab.ttl#> .
+@schema <http://schema.org/> .
+
+<HelpRequest> 
+  a rdf:Class ;
+  rdfs:label "Help Request"@en ;
+  rdfs:subClassOf schema:CreativeWork .

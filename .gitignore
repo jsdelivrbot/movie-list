@@ -1,0 +1,8 @@
+.Python
+.idea/
+bin/
+include/
+lib/
+local/
+share/
+secrets.py

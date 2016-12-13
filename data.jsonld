@@ -1,0 +1,44 @@
+ { "@context":
+  { "movietheater": "https://rawgit.com/sils-webinfo/helpdesk/master/vocab.ttl#",
+    "movielist":
+    { "@id": "http://www.w3.org/2000/01/rdf-schema#member",
+      "@container": "@index"
+    },
+    "title": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "runtime": "http://schema.org/duration",
+    "director": "http://schema.org/director",
+    "rating": "http://schema.org/contentrating",
+    "showing": "https://schema.org/startTime",
+    "licence": "https://schema.org/license"
+  },
+  "@id": "movie",
+  "movielist":
+  { "fhs6jo" :
+    { "@type": "movielist:Movie",
+      "@id": "movie/fhs6jo",
+      "title" : "Little Mermaid",
+      "description" : "A young mermaid falls in love with a prince from above the sea.",
+      "director" : "Christopher Nolan",
+      "duration" : "86 minutes",
+      "rating" : "PG",
+      "licence" : "Yes",
+      "showing" : ["11:00AM", "2:00PM"]
+    },
+    "dig73h":
+    { "@type": "movielist:Movie",
+      "@id": "movie/dig73h",
+      "title" : "Dredd",
+      "description" : "A cop and his partner take down a drug ring in a dystopian future.",
+      "director" : "James Cameron",
+      "duration" : "123 minutes",
+      "rating": "R",
+      "licence" : "No",
+      "showing" : ["8:00PM"]
+    }
+    }
+
+
+  }
+
+
