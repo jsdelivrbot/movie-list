@@ -19,16 +19,10 @@ view data extracted from microdata markup</a><br>
 <ol>
   {% for movie_id, movie in movielist %}
   <li itemscope
-      itemid="{{ url_for('movie', movie_id=movie_id, _external=True) }}"
-      resource="{{ url_for('movie', movie_id=movie_id, _external=True) }}"
-      vocab="http://schema.org/"
-      prefix="helpdesk: https://rawgit.com/sils-webinfo/helpdesk/master/vocab.ttl#"
-      property="movietheater:movielist"
-      typeof="movietheater:Movie">
-    <!-- <div itemprop="http://www.w3.org/ns/md#item"
-         itemscope itemtype="http://schema.org/CreativeWork/HelpRequest"> -->
+      itemtype="http://schema.org/Movie"
+      itemid="{{ url_for('movie', movie_id=movie_id, _external=True) }}">
     <a href="{{ url_for('movie', movie_id=movie_id) }}" rel="item">
-      <span itemprop="name" property="name">{{ movie.title }}</span>
+      <span itemprop="name">{{ movie.title }}</span>
     </a>
      rating:  {{movie.rating }}
         licence: {{ movie.licence }}
