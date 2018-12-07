@@ -1,5 +1,5 @@
  { "@context":
-  { "movietheater": "https://rawgit.com/sils-webinfo/helpdesk/master/vocab.ttl#",
+  { "movietheater": "https://cdn.jsdelivr.net/gh/sils-webinfo/helpdesk/vocab.ttl#",
     "movielist":
     { "@id": "http://www.w3.org/2000/01/rdf-schema#member",
       "@container": "@index"

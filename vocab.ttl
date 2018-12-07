@@ -1,4 +1,4 @@
-@base <https://rawgit.com/sils-webinfo/helpdesk/master/vocab.ttl#> .
+@base <https://cdn.jsdelivr.net/gh/sils-webinfo/helpdesk/vocab.ttl#> .
 @schema <http://schema.org/> .
 
 <HelpRequest> 
